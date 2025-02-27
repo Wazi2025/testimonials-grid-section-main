@@ -51,15 +51,25 @@ article {
     border-radius: 10px;
     padding: 32px;
 }
- header {
+header {
     display: flex;
     /*flex-direction: column; */
         
 } 
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 .hImage {
-    overflow: auto;
-    float: left;
+    /*overflow: auto;
+    float: left; */
+    margin-left: 1px;
 }
 
 img {
