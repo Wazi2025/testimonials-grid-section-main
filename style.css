@@ -53,10 +53,14 @@ article {
 }
  header {
     display: flex;
-/*    flex-direction: column; */
+    /*flex-direction: column; */
         
 } 
 
+.hImage {
+    overflow: auto;
+    float: left;
+}
 
 img {
     border-radius: 50%;
